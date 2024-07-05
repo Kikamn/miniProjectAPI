@@ -16,7 +16,7 @@ PROJECT_QASE_IO = "DEMO" # ambil dari https://app.qase.io/project/DEMO
 TEST_RUNING_QASE_IO = "1" # ambil dari https://app.qase.io/run/DEMO/dashboard/1
 
 # ======================================== SLACK ========================================
-#WEBHOOK = "https://hooks.slack.com/services/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" #harus di ganti sesuai nama project + ini sebelum di set di github
+#WEBHOOK = "https://hooks.slack.com/services/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" #harus di ganti sesuai nama project + ini sebelum di set di github
 WEBHOOK = os.environ.get('WEBHOOK_SLACK') #setelah di set di github
 
 # ======================================== NETLIFY ========================================

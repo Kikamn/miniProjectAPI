@@ -10,7 +10,7 @@ on:
 
 jobs:
   run_api_automation:
-    runs-on: ubuntu-latest #mesin untuk jalanin
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 

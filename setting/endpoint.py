@@ -16,7 +16,6 @@ PROJECT_QASE_IO = "DEMO" # ambil dari https://app.qase.io/project/DEMO
 TEST_RUNING_QASE_IO = "1" # ambil dari https://app.qase.io/run/DEMO/dashboard/1
 
 # ======================================== SLACK ========================================
-
 WEBHOOK = os.environ.get('WEBHOOK_SLACK') #setelah di set di github
 
 # ======================================== NETLIFY ========================================

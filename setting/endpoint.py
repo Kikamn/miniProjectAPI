@@ -11,7 +11,7 @@ api_result = host_qase_io + "/result/"  #akan jadi https://api.qase.io/v1/result
 
 # CONFIQ = TOKEN YANG DIAMBIL DARI QASE.IO
 
-TOKEN_QASE_IO = WEBHOOK = os.environ.get('QASE_IO_TOKEN') #setelah di set di github
+TOKEN_QASE_IO = os.environ.get('QASE_IO_TOKEN') #setelah di set di github
 PROJECT_QASE_IO = "DEMO" # ambil dari https://app.qase.io/project/DEMO
 TEST_RUNING_QASE_IO = "1" # ambil dari https://app.qase.io/run/DEMO/dashboard/1
 

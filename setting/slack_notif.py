@@ -99,7 +99,7 @@ def notif_slack():
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": f"<{URL_NETLIFY}/report.html|Link Report Test>"
+                        "text": f"<{URL_NETLIFY}/report_API.html|Link Report Test>"
                     }
                 },
                 {

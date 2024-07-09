@@ -20,7 +20,7 @@ def test():
     payload = {
         "name": randomName,
         "gender": "female",
-        "email": "kikamn@gmail.com",
+        "email": "",
         "status": "active"
     }
     req = requests.post(api_user, headers=head, json=payload)
@@ -35,9 +35,9 @@ def test():
     #ASSERT THAT (buat cek validasi)
     assert_that(status_code).is_equal_to(422)
     # SAAT EMAIL BLANK
-    #assert_that(resfield).is_equal_to("email")
-    #assert_that(resMessage).is_equal_to("can't be blank")
+    assert_that(resfield).is_equal_to("email")
+    assert_that(resMessage).is_equal_to("can't be blank")
 
     #EMAIL SUDAH TERDAFTAR/ DUPLICATE EMAIL
-    assert_that(resfield).is_equal_to("email")
-    assert_that(resMessage).is_equal_to("has already been taken")
+    #assert_that(resfield).is_equal_to("email")
+    #assert_that(resMessage).is_equal_to("has already been taken")

@@ -35,7 +35,8 @@ def notif_slack():
     except:
         testTotal = "0"
 
-    testSuces = float(testPassed)/float(testTotal) * 100
+    #testSuces = float(testPassed)/float(testTotal) * 100 #untuk munculin jumlah pass dan faild
+    testSuces = round(float(testPassed) / float(testTotal) * 100)
 
     if float(testFailed) >= 1: # jika test failed lebih dari 1
         color = "FF1E00" # Akan muncul Warna Merah
